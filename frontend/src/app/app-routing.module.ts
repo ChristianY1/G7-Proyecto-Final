@@ -8,6 +8,7 @@ import { RegistrarComponent } from './registrar/registrar.component';
 //en este caso el home y registrar
 const routes: Routes = [
   { path: '', component: HomeComponent }, //esto se agrega
+  { path: 'home', component: HomeComponent },
   {path: 'registrar', component: RegistrarComponent} //esto
 ];
 
