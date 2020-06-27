@@ -1,0 +1,43 @@
+<h1>Registro de nuevo Usuario</h1>
+<div classname="container">
+    <label for="nombre">Nombre</label><br>
+    <input type="text" placeholder="Nombre" name="nombre" required><br>
+    <label for="apellido">Apellido</label><br>
+    <input type="text" placeholder="Apellido" name="apellido" required><br>
+    <label for="fechaNacimiento">Fecha de Nacimiento:</label><br>
+    
+    <input type="date" id="fechaNacimiento" name="trip-start"
+       value="1995-07-22"
+       min="1985-01-01" max="2020-12-31"><br>
+    <label for="sexo">Sexo</label><br>
+    <select id="sexo" name="sexo">
+        <option value="femenino">Femenino</option>
+        <option value="masculino">Masculino</option>
+    </select><br>
+    <label for="numero">Numero de telefono</label><br>
+    <input type="number" placeholder="Numero telefonico" name="numero" required><br>
+    <label for="cedula">Cedula</label><br>
+    <input type="number" placeholder="Numero de cedula" name="cedula" required><br>
+
+    <label for="email">Correo electronico</label><br>
+    <input type="text" placeholder="email" name="correo" required><br>
+
+    <label for="psw">Password</label>
+    <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+    title="Debe contener al menos un numero, una letra en mayuscula o minuscula, y al menos 8 o mas caracteres" required>
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</div>
+<div id="message">
+    <h3>Password must contain the following:</h3>
+    <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+    <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+    <p id="number" class="invalid">A <b>number</b></p>
+    <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+  </div>
