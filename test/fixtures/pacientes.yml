@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cedula: MyString
+  nombre: MyString
+  apellido: MyString
+  fechaDeNacimiento: 2020-06-28
+  sexo: MyString
+  telefono: MyString
+  mail: MyString
+  password: MyString
+
+two:
+  cedula: MyString
+  nombre: MyString
+  apellido: MyString
+  fechaDeNacimiento: 2020-06-28
+  sexo: MyString
+  telefono: MyString
+  mail: MyString
+  password: MyString
