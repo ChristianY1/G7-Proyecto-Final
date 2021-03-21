@@ -1,0 +1,44 @@
+
+  <h1>Factura</h1>
+  <div classname="header-factura">
+    <label for="fecha">Fecha : </label>
+    <input type="date" id="fecha" name="fecha"
+       value="2020-06-28"
+       min="2020-06-08" max="2020-12-31">
+    <label for="paciente">Paciente : </label>
+    <select id="paciente" name="paciente">
+        <option value="Alex">Alex Reinoso</option>
+        <option value="Christian">Christian Yunga</option>
+        <option value="Pablo">Pablo Calle</option>
+        <option value="Daniel">Daniel Peralta</option>
+    </select><br>
+
+    <label for="medico">Medico : </label>
+    <select id="medico" name="medico">
+        <option value="doctor">doctor uno</option>
+        <option value="doctor2">doctor dos</option>
+    </select><br>
+  </div>
+  <br>
+  <table>
+   <tr>
+    <th>Producto</th>
+    <th>Precio</th>
+    <th>Cantidad</th>
+    <th>Total</th>
+   </tr>
+   <tr>
+    <td><input type="text" name="producto"></td>
+    <td>$<input type="numer" name="precio"></td>
+    <td><input type="number" name="cantidad"></td>
+    <td>$20</td>
+   </tr>
+   <tr>
+    <td colspan="3">Subtotal</td>
+	<td>250</td>
+   </tr>  
+   <tr>
+    <td colspan="3">Precio total</td>
+	<td>255</td>
+   </tr> 
+  </table>
